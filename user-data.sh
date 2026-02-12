@@ -14,3 +14,5 @@ apt install -y nodejs
 # Install PM2
 npm install -g pm2
 
+#Install openclaw
+npm i -g openclaw
