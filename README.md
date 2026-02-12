@@ -67,3 +67,10 @@ To remove resources:
 
 - Ensure your `my_ip` value is current to avoid losing SSH access.
 - If you change `my_ip`, re-run `terraform apply` to update security group rules.
+
+## Post-SSH: OpenClaw Onboard
+
+After you SSH into the instance, continue with the OpenClaw onboarding steps.
+
+use the below oneliner command
+- ` curl -fsSL https://openclaw.ai/install.sh | bash`
